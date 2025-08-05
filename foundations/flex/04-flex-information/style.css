@@ -24,3 +24,21 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* make the title flexible */
+.title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+/* Make all images flexible */
+.images-container{
+  display: flex;
+  justify-content: center; 
+  /* align-content: center;  */
+  gap:48px;
+}
+.solo-image{
+  width: 200px;
+  text-align: center;
+}
