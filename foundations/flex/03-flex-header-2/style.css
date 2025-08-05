@@ -53,8 +53,8 @@ ul {
 /* Make the header flexible */
 .header{
   display: flex;
-  gap:8px;
   padding: 8px;
+  gap: 8px;
 
 }
 /* make the links lexible */ 
