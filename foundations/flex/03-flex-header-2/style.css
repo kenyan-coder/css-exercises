@@ -11,7 +11,7 @@ body {
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0,0,0,.1);  
 }
 
 .profile-image {
@@ -44,5 +44,32 @@ a {
 }
 
 ul {
+
   list-style-type: none;
 }
+
+/* Solution */
+
+/* Make the header flexible */
+.header{
+  display: flex;
+  gap:8px;
+  padding: 8px;
+
+}
+/* make the links lexible */ 
+.links{
+  display: flex;
+  gap:8px; 
+  flex-grow:1; 
+}
+/* Give the logo a little bit margin */
+.logo{
+  margin-left: 8px;
+}
+/* Make the profile not shrink */
+.profile-image{
+  flex-shrink: 0;
+}
+
+
